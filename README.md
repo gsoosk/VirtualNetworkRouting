@@ -1,6 +1,6 @@
 # Virtual Network Routes
 
-This project representing a virtual network routing among virtual nodes that connecting together via interfaces. Each packet goes to its destination using routing algorithms and find its way between nodes. It uses [Distance Vector](https://en.wikipedia.org/wiki/Distance-vector_routing_protocol) routing protocol for routing and forwarding messages. It also supports `Traceroute` command to find nodes and interfaces.
+This project is representing a virtual network routing among virtual nodes that connecting via interfaces. Each packet goes to its destination using routing algorithms and finds its way between nodes. It uses [Distance Vector](https://en.wikipedia.org/wiki/Distance-vector_routing_protocol) routing protocol for routing and forwarding messages. It also supports the `Traceroute` command to find nodes and interfaces.
 
 
 ## How to run
@@ -9,8 +9,8 @@ Install vagrant software and then in project directory run
 ```bash
 vagrant up
 ```
-vagrant configs are to run a virtual machine on your computer. You had to installed Virtual Box or other virtual machines.
-after that you can connect to virtual machine using `vagrant ssh` command. 
+Vagrant configs are to run a virtual machine on your computer. You had to install Virtual Box or other virtual machines.
+After that, you can connect to the virtual machine using `vagrant ssh` command. 
 
 **NOTE:** You also can make codes on your machine with standard c++ compiler `g++`.
 
@@ -32,7 +32,7 @@ C <-> D
 C <-> E
 ```
 
-After writing a config you should make some `lnx` file that will run with each node program. 
+After writing a config, you should make some `lnx` file that will run with each node program. 
 ```bash
 ./tools/netconv config
 ```
@@ -56,7 +56,7 @@ then for running that for each node run this command :
 ```
 
 ## How to use
-With help command you see how the whole node program works : 
+With help command, you see how the whole node program works : 
 ```
 > help
 - help, h: Print this list of commands
