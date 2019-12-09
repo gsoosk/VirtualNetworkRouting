@@ -43,7 +43,7 @@ localhost 5001 192.168.0.1 192.168.0.2
 localhost 5003 192.168.0.10 192.168.0.9
 ```
 
-**NOTE:** There is some example net config in nets folder.
+**NOTE:** There is some example net config in net's folder.
 
 After that it is time to run each node with a `lnx` file.
 first make codes : 
